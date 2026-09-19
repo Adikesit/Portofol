@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diz | Tech &amp; Coffee Portfolio</title>
+  <meta name="description" content="Portofolio Diz, mahasiswa Teknik Informatika ITS yang lagi belajar cloud dan container.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%98%95%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#konten">Lompat ke konten</a>
+  <div class="progress" aria-hidden="true"></div>
+
+  <div class="layout">
+    <aside class="rail">
+      <a class="mark" href="#atas">Diz</a>
+
+      <nav aria-label="Navigasi utama">
+        <ul>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#proyek">Proyek</a></li>
+          <li><a href="#prestasi">Prestasi</a></li>
+          <li><a href="#alat">Alat</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <figure class="cup" aria-hidden="true">
+        <svg viewBox="0 0 84 100" width="88" height="105">
+          <defs>
+            <clipPath id="badan"><path d="M10 24H58V60Q58 88 34 88Q10 88 10 60Z"/></clipPath>
+          </defs>
+          <g clip-path="url(#badan)"><rect class="fill" x="10" y="24" width="48" height="64"/></g>
+          <path class="line" d="M10 24H58V60Q58 88 34 88Q10 88 10 60Z"/>
+          <path class="line" d="M58 34H66Q76 34 76 46Q76 58 66 58H58"/>
+          <path class="line" d="M2 95H66"/>
+        </svg>
+        <figcaption>Cangkir terisi seiring kamu scroll.</figcaption>
+      </figure>
+    </aside>
+
+    <main id="konten">
+      <header id="atas" class="hero">
+        <h1>Diz</h1>
+        <p class="lead">Mahasiswa Teknik Informatika ITS angkatan 2025. Aktif di beberapa tim teknis kampus, dan lagi belajar bikin aplikasi yang jalan di cloud.</p>
+        <p class="actions">
+          <a class="btn btn-solid" href="#proyek">Lihat proyek</a>
+          <a class="btn btn-line" href="mailto:didisio35@gmail.com">Kirim email</a>
+        </p>
+      </header>
+
+      <section id="tentang" aria-labelledby="h-tentang">
+        <h2 id="h-tentang">Tentang</h2>
+        <p>Aku Diz, mahasiswa Teknik Informatika di Institut Teknologi Sepuluh Nopember, Surabaya. Di luar kelas aku terlibat di beberapa tim teknis ITS dan pernah ikut kompetisi tingkat internasional.</p>
+        <p>Belakangan aku belajar infrastruktur cloud: bikin VM di Azure, membungkus aplikasi dengan Docker, dan membagi trafik lewat load balancer. Website ini sendiri jalan di salah satu VM itu.</p>
+        <!-- EDIT: sesuaikan dua paragraf di atas dengan ceritamu sendiri. -->
+      </section>
+
+      <section id="proyek" aria-labelledby="h-proyek">
+        <h2 id="h-proyek">Proyek</h2>
+        <ul class="rows">
+          <li class="row">
+            <span class="when">2026</span>
+            <div>
+              <h3>Portofolio di belakang Load Balancer Azure</h3>
+              <p>Website ini. Dibungkus Docker, dijalankan di beberapa VM, dan trafiknya dibagi oleh Azure Standard Load Balancer.</p>
+              <p class="stack">Azure, Docker, Nginx, HTML/CSS/JS</p>
+            </div>
+          </li>
+          <!-- EDIT: ganti dua proyek di bawah dengan proyekmu. Salin blok <li> ini kalau mau nambah. -->
+          <li class="row">
+            <span class="when">Tahun</span>
+            <div>
+              <h3>Nama proyek</h3>
+              <p>Satu-dua kalimat: masalah apa yang diselesaikan dan peranmu apa.</p>
+              <p class="stack">Teknologi yang dipakai</p>
+            </div>
+          </li>
+          <li class="row">
+            <span class="when">Tahun</span>
+            <div>
+              <h3>Nama proyek</h3>
+              <p>Satu-dua kalimat: masalah apa yang diselesaikan dan peranmu apa.</p>
+              <p class="stack">Teknologi yang dipakai</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section id="prestasi" aria-labelledby="h-prestasi">
+        <h2 id="h-prestasi">Prestasi</h2>
+        <!-- EDIT: isi dengan kompetisi dan pencapaianmu yang sebenarnya. -->
+        <ul class="rows">
+          <li class="row">
+            <span class="when">Tahun</span>
+            <div>
+              <h3>Nama kompetisi, peringkat</h3>
+              <p>Penyelenggara dan lokasi.</p>
+            </div>
+          </li>
+          <li class="row">
+            <span class="when">Tahun</span>
+            <div>
+              <h3>Nama kompetisi, peringkat</h3>
+              <p>Penyelenggara dan lokasi.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section id="alat" aria-labelledby="h-alat">
+        <h2 id="h-alat">Alat yang lagi dipakai</h2>
+        <dl class="tools">
+          <div><dt>Cloud</dt><dd>Microsoft Azure: Resource Group, VM, Network Security Group, Load Balancer</dd></div>
+          <div><dt>Container</dt><dd>Docker, Docker Compose</dd></div>
+          <div><dt>Web dan server</dt><dd>HTML, CSS, JavaScript, Nginx</dd></div>
+          <div><dt>Sehari-hari</dt><dd>Linux (WSL2/Ubuntu), SSH, Git dan GitHub</dd></div>
+        </dl>
+        <!-- EDIT: tambahkan bahasa pemrograman dan tools lain yang kamu kuasai. -->
+      </section>
+
+      <section id="kontak" aria-labelledby="h-kontak">
+        <h2 id="h-kontak">Kontak</h2>
+        <p>Paling cepat lewat email. Kalau mau lihat kodenya, ada di GitHub.</p>
+        <ul class="contacts">
+          <li><a href="mailto:didisio35@gmail.com">didisio35@gmail.com</a></li>
+          <li><a href="https://github.com/Adikesit" rel="noopener">github.com/Adikesit</a></li>
+          <!-- EDIT: aktifkan baris ini kalau sudah punya LinkedIn.
+          <li><a href="https://www.linkedin.com/in/USERNAME-KAMU" rel="noopener">LinkedIn</a></li>
+          -->
+        </ul>
+      </section>
+
+      <footer>
+        <p>&copy; <span id="tahun">2026</span> Diz. Dibuat dengan HTML, CSS, dan secangkir kopi.</p>
+      </footer>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
