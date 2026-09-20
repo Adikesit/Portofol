@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Diz | Tech &amp; Coffee Portfolio</title>
-  <meta name="description" content="Portofolio Diz, mahasiswa Teknik Informatika ITS yang lagi belajar cloud dan container.">
+  <title>Adi | Tech &amp; Coffee Portfolio</title>
+  <meta name="description" content="Portofolio Muhammad Adinata Parikesit, mahasiswa Teknik Informatika ITS yang lagi belajar cloud dan container.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%98%95%3C/text%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,14 +17,14 @@
 
   <div class="layout">
     <aside class="rail">
-      <a class="mark" href="#atas">Diz</a>
+      <a class="mark" href="#atas">Adi</a>
 
       <nav aria-label="Navigasi utama">
         <ul>
           <li><a href="#tentang">Tentang</a></li>
-          <li><a href="#proyek">Proyek</a></li>
           <li><a href="#prestasi">Prestasi</a></li>
-          <li><a href="#alat">Alat</a></li>
+          <li><a href="#skill">Skill</a></li>
+          <li><a href="#proyek">Proyek</a></li>
           <li><a href="#kontak">Kontak</a></li>
         </ul>
       </nav>
@@ -39,13 +39,17 @@
           <path class="line" d="M58 34H66Q76 34 76 46Q76 58 66 58H58"/>
           <path class="line" d="M2 95H66"/>
         </svg>
-        <figcaption>Cangkir terisi seiring kamu scroll.</figcaption>
+        <figcaption>FILLL IITTT!!!!</figcaption>
       </figure>
     </aside>
 
     <main id="konten">
       <header id="atas" class="hero">
-        <h1>Diz</h1>
+        <!-- EDIT: timpa file site/foto.jpg dengan fotomu sendiri (nama file harus tetap foto.jpg). -->
+        <div class="hero-top">
+          <img class="foto" src="foto.jpg" width="640" height="800" alt="Foto Muhammad Adinata Parikesit">
+          <h1><span class="hi">Hi, I'm</span> <span class="nama">Muhammad Adinata Parikesit</span></h1>
+        </div>
         <p class="lead">Mahasiswa Teknik Informatika ITS angkatan 2025. Aktif di beberapa tim teknis kampus, dan lagi belajar bikin aplikasi yang jalan di cloud.</p>
         <p class="actions">
           <a class="btn btn-solid" href="#proyek">Lihat proyek</a>
@@ -55,9 +59,47 @@
 
       <section id="tentang" aria-labelledby="h-tentang">
         <h2 id="h-tentang">Tentang</h2>
-        <p>Aku Diz, mahasiswa Teknik Informatika di Institut Teknologi Sepuluh Nopember, Surabaya. Di luar kelas aku terlibat di beberapa tim teknis ITS dan pernah ikut kompetisi tingkat internasional.</p>
+        <p>Aku Adi, mahasiswa Teknik Informatika di Institut Teknologi Sepuluh Nopember, Surabaya. Di luar kelas aku terlibat di beberapa tim teknis ITS dan pernah ikut kompetisi tingkat internasional.</p>
         <p>Belakangan aku belajar infrastruktur cloud: bikin VM di Azure, membungkus aplikasi dengan Docker, dan membagi trafik lewat load balancer. Website ini sendiri jalan di salah satu VM itu.</p>
         <!-- EDIT: sesuaikan dua paragraf di atas dengan ceritamu sendiri. -->
+      </section>
+
+      <section id="prestasi" aria-labelledby="h-prestasi">
+        <h2 id="h-prestasi">Prestasi</h2>
+        <!-- EDIT: isi dengan kompetisi dan pencapaianmu yang sebenarnya. -->
+        <ul class="rows">
+          <li class="row">
+            <span class="when">Tahun</span>
+            <div>
+              <h3>Nama kompetisi, peringkat</h3>
+              <p>Penyelenggara dan lokasi.</p>
+            </div>
+          </li>
+          <li class="row">
+            <span class="when">Tahun</span>
+            <div>
+              <h3>Nama kompetisi, peringkat</h3>
+              <p>Penyelenggara dan lokasi.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section id="skill" aria-labelledby="h-skill">
+        <h2 id="h-skill">Skill</h2>
+        <ul class="skills">
+          <li>Microsoft Azure</li>
+          <li>Docker</li>
+          <li>Docker Compose</li>
+          <li>Nginx</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Linux (WSL2/Ubuntu)</li>
+          <li>SSH</li>
+          <li>Git dan GitHub</li>
+        </ul>
+        <!-- EDIT: tambah atau hapus skill dengan menyalin/menghapus baris <li>. -->
       </section>
 
       <section id="proyek" aria-labelledby="h-proyek">
@@ -91,38 +133,6 @@
         </ul>
       </section>
 
-      <section id="prestasi" aria-labelledby="h-prestasi">
-        <h2 id="h-prestasi">Prestasi</h2>
-        <!-- EDIT: isi dengan kompetisi dan pencapaianmu yang sebenarnya. -->
-        <ul class="rows">
-          <li class="row">
-            <span class="when">Tahun</span>
-            <div>
-              <h3>Nama kompetisi, peringkat</h3>
-              <p>Penyelenggara dan lokasi.</p>
-            </div>
-          </li>
-          <li class="row">
-            <span class="when">Tahun</span>
-            <div>
-              <h3>Nama kompetisi, peringkat</h3>
-              <p>Penyelenggara dan lokasi.</p>
-            </div>
-          </li>
-        </ul>
-      </section>
-
-      <section id="alat" aria-labelledby="h-alat">
-        <h2 id="h-alat">Alat yang lagi dipakai</h2>
-        <dl class="tools">
-          <div><dt>Cloud</dt><dd>Microsoft Azure: Resource Group, VM, Network Security Group, Load Balancer</dd></div>
-          <div><dt>Container</dt><dd>Docker, Docker Compose</dd></div>
-          <div><dt>Web dan server</dt><dd>HTML, CSS, JavaScript, Nginx</dd></div>
-          <div><dt>Sehari-hari</dt><dd>Linux (WSL2/Ubuntu), SSH, Git dan GitHub</dd></div>
-        </dl>
-        <!-- EDIT: tambahkan bahasa pemrograman dan tools lain yang kamu kuasai. -->
-      </section>
-
       <section id="kontak" aria-labelledby="h-kontak">
         <h2 id="h-kontak">Kontak</h2>
         <p>Paling cepat lewat email. Kalau mau lihat kodenya, ada di GitHub.</p>
@@ -136,7 +146,7 @@
       </section>
 
       <footer>
-        <p>&copy; <span id="tahun">2026</span> Diz. Dibuat dengan HTML, CSS, dan secangkir kopi.</p>
+        <p>&copy; <span id="tahun">2026</span> Muhammad Adinata Parikesit. Dibuat dengan HTML, CSS, dan secangkir kopi.</p>
       </footer>
     </main>
   </div>
