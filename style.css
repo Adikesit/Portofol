@@ -159,6 +159,13 @@ p { margin: 0 0 1rem; }
 .rows-foto img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 0.4rem; border: 1px solid var(--line); background: var(--line); }
 .rows-foto .when { margin: 0 0 0.2rem; font-size: 0.95rem; }
 
+.rows-exp .row { grid-template-columns: 11.5rem minmax(0, 1fr); gap: 1.5rem; }
+.rows-exp .when { font-size: 0.95rem; line-height: 1.4; padding-top: 0.2rem; }
+.row .org { margin: 0.1rem 0 0; font-size: 0.98rem; color: var(--muted); }
+.points { list-style: disc; margin: 0.6rem 0 0; padding-left: 1.1rem; font-size: 1rem; line-height: 1.55; }
+.points li { margin-top: 0.35rem; padding-left: 0.15rem; }
+.points li::marker { color: var(--crema); }
+
 /* Skill */
 .skills {
   list-style: none; margin: 0; padding: 0;
@@ -200,6 +207,7 @@ footer { margin-top: 6rem; padding-top: 1.5rem; border-top: 1px solid var(--line
   main > section { margin-top: 4.5rem; }
   .row { grid-template-columns: 1fr; gap: 0.25rem; }
   .rows-foto .row { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+  .rows-exp .row { grid-template-columns: minmax(0, 1fr); gap: 0.25rem; }
 }
 
 @media (max-width: 30rem) {
