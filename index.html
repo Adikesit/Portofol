@@ -17,8 +17,6 @@
 
   <div class="layout">
     <aside class="rail">
-      <a class="mark" href="#atas">Adi</a>
-
       <nav aria-label="Navigasi utama">
         <ul>
           <li><a href="#tentang">Tentang</a></li>
@@ -66,7 +64,7 @@
 
       <section id="prestasi" aria-labelledby="h-prestasi">
         <h2 id="h-prestasi">Prestasi</h2>
-        <!-- EDIT: isi dengan kompetisi dan pencapaianmu yang sebenarnya . -->
+        <!-- EDIT: isi dengan kompetisi dan pencapaianmu yang sebenarnya. -->
         <ul class="rows">
           <li class="row">
             <span class="when">Tahun</span>
@@ -104,27 +102,31 @@
 
       <section id="proyek" aria-labelledby="h-proyek">
         <h2 id="h-proyek">Proyek</h2>
-        <ul class="rows">
+        <!-- EDIT: ganti foto dengan menimpa file di site/proyek/ (proyek-1.jpg, proyek-2.jpg, dst).
+             Rasio 16:10 paling pas. Salin satu blok <li> untuk menambah proyek. -->
+        <ul class="rows rows-foto">
           <li class="row">
-            <span class="when">2026</span>
+            <img src="proyek/proyek-1.jpg" width="800" height="500" loading="lazy" alt="Diagram Load Balancer yang membagi trafik ke tiga VM">
             <div>
+              <p class="when">2026</p>
               <h3>Portofolio di belakang Load Balancer Azure</h3>
               <p>Website ini. Dibungkus Docker, dijalankan di beberapa VM, dan trafiknya dibagi oleh Azure Standard Load Balancer.</p>
               <p class="stack">Azure, Docker, Nginx, HTML/CSS/JS</p>
             </div>
           </li>
-          <!-- EDIT: ganti dua proyek di bawah dengan proyekmu. Salin blok <li> ini kalau mau nambah. -->
           <li class="row">
-            <span class="when">Tahun</span>
+            <img src="proyek/proyek-2.jpg" width="800" height="500" loading="lazy" alt="Foto proyek kedua">
             <div>
+              <p class="when">Tahun</p>
               <h3>Nama proyek</h3>
               <p>Satu-dua kalimat: masalah apa yang diselesaikan dan peranmu apa.</p>
               <p class="stack">Teknologi yang dipakai</p>
             </div>
           </li>
           <li class="row">
-            <span class="when">Tahun</span>
+            <img src="proyek/proyek-3.jpg" width="800" height="500" loading="lazy" alt="Foto proyek ketiga">
             <div>
+              <p class="when">Tahun</p>
               <h3>Nama proyek</h3>
               <p>Satu-dua kalimat: masalah apa yang diselesaikan dan peranmu apa.</p>
               <p class="stack">Teknologi yang dipakai</p>
