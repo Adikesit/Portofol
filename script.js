@@ -22,6 +22,8 @@
     sections.forEach(function (s, i) {
       if (s && s.getBoundingClientRect().top <= window.innerHeight * 0.35) current = i;
     });
+    // Di dasar halaman, bagian terakhir (Kontak) yang dianggap aktif.
+    if (window.innerHeight + window.scrollY >= root.scrollHeight - 4) current = sections.length - 1;
     links.forEach(function (a, i) {
       if (i === current) a.setAttribute("aria-current", "true");
       else a.removeAttribute("aria-current");
